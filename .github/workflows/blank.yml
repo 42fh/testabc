@@ -36,7 +36,7 @@ jobs:
           echo line2: test, and deploy your project.
             
       - name: Install Doxygen
-        run: sudo apt-get install -y doxygen
+        run: sudo apt-get install -y doxygen doxygen-latex doxygen-doc doxygen-gui graphviz xapian-tools
       
       - name: Generate Documentation
         run: doxygen doxyfile
