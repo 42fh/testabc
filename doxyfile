@@ -1,0 +1,17 @@
+# Doxyfile configuration file
+
+# Project name
+PROJECT_NAME           = "Test ABC"
+
+# Source directory
+INPUT                  = .
+
+# Output directory
+OUTPUT_DIRECTORY       = ./docs
+
+# Generate documentation for all members
+EXTRACT_ALL            = YES
+
+# Output format
+OUTPUT_FORMAT          = HTML
+
